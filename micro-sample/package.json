@@ -1,0 +1,40 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "sh build.sh",
+    "lint": "vue-cli-service lint",
+    "build:dist": "vue-cli-service build",
+    "dev": "vue-cli-service serve",
+    "webpack": "webpack --version"
+  },
+  "dependencies": {
+    "echarts": "^5.3.2",
+    "less": "^2.7.3",
+    "vue": "^2.6.11",
+    "vue-router": "^3.5.2",
+    "vuex": "^3.6.2",
+    "ant-design-vue": "1.7.5",
+    "jquery": "3.6.0",
+    "lodash": "4.17.21",
+    "axios": "0.21.4",
+    "vue-ls": "3.2.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.78.0",
+    "webpack-cli": "^5.0.1",
+    "@babel/core": "^7.12.16",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~5.0.8",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "less-loader": "^7.0.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

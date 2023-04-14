@@ -1,0 +1,97 @@
+[
+  {
+    "title": "工作台",
+    "icon": "",
+    "target": "home",
+    "activeRule": "/micro-workbench/",
+    "children": []
+  },
+  {
+    "title": "SAMPLE首页",
+    "icon": "",
+    "target": "home",
+    "activeRule": "/micro-sample/",
+    "children": []
+  },
+  {
+    "title": "SAMPLE导航栏",
+    "icon": "",
+    "target": "",
+    "activeRule": "",
+    "children": [
+      {
+        "title": "二级菜单1",
+        "icon": "",
+        "target": "",
+        "activeRule": "",
+        "children": [
+          {
+            "title": "三级菜单1",
+            "icon": "",
+            "target": "subMenu1",
+            "activeRule": "/micro-sample/",
+            "children": []
+          },
+          {
+            "title": "三级菜单2",
+            "icon": "",
+            "target": "subMenu2",
+            "activeRule": "/micro-sample/",
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "二级菜单2",
+        "icon": "",
+        "target": "menu2",
+        "activeRule": "/micro-sample/",
+        "children": []
+      }
+    ]
+  },
+  {
+    "title": "DEMO首页",
+    "icon": "",
+    "target": "home",
+    "activeRule": "/micro-demo/",
+    "children": []
+  },
+  {
+    "title": "DEMO导航栏",
+    "icon": "",
+    "target": "",
+    "activeRule": "",
+    "children": [
+      {
+        "title": "二级菜单1",
+        "icon": "",
+        "target": "",
+        "activeRule": "",
+        "children": [
+          {
+            "title": "三级菜单1",
+            "icon": "",
+            "target": "subMenu1",
+            "activeRule": "/micro-demo/",
+            "children": []
+          },
+          {
+            "title": "三级菜单2",
+            "icon": "",
+            "target": "subMenu2",
+            "activeRule": "/micro-demo/",
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "二级菜单2",
+        "icon": "",
+        "target": "menu2",
+        "activeRule": "/micro-demo/",
+        "children": []
+      }
+    ]
+  }
+]

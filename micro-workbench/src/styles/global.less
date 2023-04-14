@@ -1,0 +1,37 @@
+@import '~ant-design-vue/dist/antd.less';
+@import '~ant-design-vue/es/style/themes/default.less';
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  margin: 0;
+}
+
+#app {
+  height: 100%;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fullModalWithHeader {
+  overflow: hidden;
+}
+
+.fullModalWithHeader .ant-modal {
+  padding-bottom: 0;
+  top: 0 !important;
+}
+
+.fullModalWithHeader .ant-modal-body {
+  height: calc(~"100vh - 109px") !important;
+  max-height: none !important;
+}
